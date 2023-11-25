@@ -1,0 +1,104 @@
+/* mainbox.css */
+.featback {
+    margin-top: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1.5%;
+    background-size: cover;
+    background-image: url(../images/scope.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    width: 197vh;
+    border-radius: 1%;
+    position: relative; 
+}
+
+.featback:hover {
+    box-shadow: 2px 2px 10px #ffffff;
+}
+
+
+.featback2 {
+    margin-top: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-size: cover;
+    background-image: url(../images/thinking.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    width: 197vh;
+    border-radius: 1%;
+    position: relative; 
+}
+
+.featback2:hover {
+    box-shadow: 2px 2px 10px #ffffff;
+}
+
+.feath1 {
+    font-size: 250%;
+    color: rgb(1, 19, 23);
+    position: absolute; 
+    bottom: 10px; 
+    left: 35%; 
+    transform: translateX(-50%); 
+    transition: color 0.4s;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.feath1:hover {
+    color: rgb(131, 131, 8);
+    cursor: pointer;
+    text-decoration:underline;
+    background-color: rgb(215, 210, 210);
+    text-decoration-style: dotted;
+}
+
+
+.remh1{
+    margin-left: 30%;
+    color:#ffffff;
+}
+
+.remh1:hover {
+    color: rgb(186, 186, 67);
+    cursor: pointer;
+    text-decoration:underline;
+    
+}
+
+.feath2{
+    color: white;
+    padding: 10px;
+}
+
+.feath3{
+    position: relative;
+    color: white;
+    padding: 10px;
+    left: 15px;
+}
+
+
+.feath4 {
+    font-size: 250%;
+    color: rgb(1, 19, 23);
+    position: absolute; 
+    top: 105px; 
+    left: 40%; 
+    transform: translateX(-50%); 
+    transition: color 0.4s;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.feath4:hover {
+    color: rgb(131, 131, 8);
+    cursor: pointer;
+    text-decoration:underline;
+    background-color: rgb(215, 210, 210);
+    text-decoration-style: dotted;
+}
