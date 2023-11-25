@@ -1,0 +1,54 @@
+.logodesign{
+    width: 9%;
+    height: 9%;
+    margin: 0.5%;
+    margin-right: 3%;
+}
+
+.logodesign:hover{
+    cursor: grab;
+    
+}
+
+
+header{
+    display: flex;
+}
+
+header:hover{
+    box-shadow: 5px 5px 10px #f3e0e0;
+    background-color:rgb(87, 85, 85);
+    border-radius: 2.5%;
+}
+
+.navh1{
+    color: white;
+    margin-top: 4%;
+    font-size: 170%;
+    margin-left: 3%;
+}
+
+
+.navh1:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    box-shadow: 0px 0px 0px #f3e0e0;
+    color:red;
+}
+
+button{
+    font-size: 170%;
+    color:white;
+    background-color: transparent;
+    margin-top:3.7%;
+    margin-left: 30%;
+    height:15%;
+    width:15%;
+}
+
+
+button:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}

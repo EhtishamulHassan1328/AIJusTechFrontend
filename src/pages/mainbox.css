@@ -1,0 +1,39 @@
+/* mainbox.css */
+.back {
+    margin-top: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1.5%;
+    background-size: cover;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    width: 197vh;
+    border-radius: 1%;
+    position: relative; 
+}
+
+.back:hover {
+    box-shadow: 2px 2px 10px #ffffff;
+}
+
+.mainh1 {
+    font-size: 300%;
+    color: rgb(1, 19, 23);
+    position: absolute; 
+    bottom: 10px; 
+    left: 45%; 
+    transform: translateX(-50%); 
+    transition: color 0.6s;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.mainh1:hover {
+    color: rgb(132, 132, 57);
+    cursor: pointer;
+    text-decoration:underline;
+    background-color: rgb(215, 210, 210);
+    text-decoration-style: dotted;
+}
